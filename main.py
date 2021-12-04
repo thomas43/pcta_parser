@@ -109,9 +109,6 @@ def parse(driver):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    s = Session()
-    service = Service(r"C:\Users\tsg05221\Downloads\geckodriver\chromedriver.exe")
-
     driver = uc.Chrome()
     parse(driver)
 
